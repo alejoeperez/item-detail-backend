@@ -1,0 +1,53 @@
+[
+  {
+    "id": "converse-1",
+    "title": "Converse Chuck Taylor Clásicos",
+    "description": "Zapatillas clásicas Converse.",
+    "variants": [
+      {
+        "id": "converse-variant-1",
+        "color": "Negro",
+        "sizeStock": {
+          "8": 5,
+          "9": 3,
+          "10": 4
+        },
+        "originalPrice": 280000,
+        "discountPercentage": 0,
+        "images": ["converse-black-front.jpg", "converse-black-right-side.jpg", "converse-black-left-side.jpg"]
+      },
+      {
+        "id": "converse-variant-2",
+        "color": "Blanco",
+        "sizeStock": {
+          "8": 5,
+          "9": 3,
+          "10": 4
+        },
+        "originalPrice": 280000,
+        "discountPercentage": 10,
+        "images": ["converse-white-front.jpg", "converse-white-right-side.jpg", "converse-white-left-side.jpg"]
+      },
+      {
+        "id": "converse-variant-3",
+        "color": "Rojo",
+        "sizeStock": {
+          "8": 5,
+          "9": 3,
+          "10": 4,
+          "11": 3
+        },
+        "originalPrice": 280000,
+        "discountPercentage": 25,
+        "images": ["converse-red-front.jpg", "converse-red-right-side.jpg", "converse-red-left-side.jpg"]
+      }
+    ],
+    "features" : [
+      { "label": "Marca", "value": "Converse", "icon": "🏷️" },
+      { "label": "Materiales de la suela", "value": "Goma", "icon": "👟" },
+      { "label": "Materiales del exterior", "value": "Lona", "icon": "🧵" },
+      { "label": "Temporada de lanzamiento", "value": "Todas las estaciones", "icon": "✅" },
+      { "label": "Deportes recomendados", "value": "Caminata", "icon": "🏃" }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "seller-1",
+    "name": "JAPAMALABUDISTA",
+    "totalProducts": 26,
+    "sales": 104,
+    "isMercadoLider": true,
+    "leaderComment": "¡Uno de los mejores del sitio!",
+    "progress": 90,
+    "badges": [
+      "Ventas concretadas",
+      "Buena atención",
+      "Entrega a tiempo"
+    ]
+  }
+]

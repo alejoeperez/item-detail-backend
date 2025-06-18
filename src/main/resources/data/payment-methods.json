@@ -1,0 +1,60 @@
+[
+  {
+    "id": "credit",
+    "type": "credit",
+    "title": "Tarjetas de crédito",
+    "options": [
+      {
+        "name": "Bancolombia",
+        "logoUrl": "/img/bancolombia.png"
+      },
+      {
+        "name": "Davivienda",
+        "logoUrl": "/img/davivienda.png"
+      },
+      {
+        "name": "Banco Popular",
+        "logoUrl": "/img/popular.png"
+      }
+    ]
+  },
+  {
+    "id": "debit",
+    "type": "debit",
+    "title": "Tarjetas de débito",
+    "options": [
+      {
+        "name": "Visa Débito",
+        "logoUrl": "/img/visa.png"
+      },
+      {
+        "name": "MasterCard Débito",
+        "logoUrl": "/img/mastercard.png"
+      }
+    ]
+  },
+  {
+    "id": "cash",
+    "type": "other",
+    "category": "cash",
+    "title": "Pago en efectivo",
+    "options": [
+      {
+        "name": "Efecty",
+        "logoUrl": "/img/efecty.png"
+      }
+    ]
+  },
+  {
+    "id": "transfer",
+    "type": "other",
+    "category": "transfer",
+    "title": "Transferencia desde tu banco",
+    "options": [
+      {
+        "name": "PSE",
+        "logoUrl": "/img/pse.png"
+      }
+    ]
+  }
+]
