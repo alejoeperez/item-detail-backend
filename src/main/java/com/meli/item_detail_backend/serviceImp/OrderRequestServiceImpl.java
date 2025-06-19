@@ -6,6 +6,8 @@ import com.meli.item_detail_backend.dto.ProductVariant;
 import com.meli.item_detail_backend.exception.BusinessException;
 import com.meli.item_detail_backend.service.OrderRequestService;
 import com.meli.item_detail_backend.service.ProductService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +15,8 @@ import java.util.Map;
 
 @Service
 public class OrderRequestServiceImpl implements OrderRequestService {
+
+    private static final Logger log = LoggerFactory.getLogger(OrderRequestServiceImpl.class);
 
     private final ProductService productService;
 
@@ -23,6 +27,8 @@ public class OrderRequestServiceImpl implements OrderRequestService {
 
     @Override
     public void processOrder(OrderRequest request) {
+
+        log.info("Processing order request with data: {}", request.toString());
 
         Product product = productService.getProductById(request.getProductId());
 
@@ -45,6 +51,8 @@ public class OrderRequestServiceImpl implements OrderRequestService {
         if (availableStock < request.getQuantity()) {
             throw new BusinessException("Stock insufficient", HttpStatus.BAD_REQUEST);
         }
+
+        log.info("Updating stock for product");
         // update stock
         sizeStock.put(requestedSize, availableStock - request.getQuantity());
     }

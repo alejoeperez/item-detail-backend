@@ -1,59 +1,105 @@
 [
   {
-    "id": "credit",
-    "type": "credit",
+    "id": "creidt_cards",
+    "type": "screen",
+    "category": "credit",
+    "title": "Tarjetas de crédito",
+    "options": [
+      {
+        "name": "Visa",
+        "logoUrl": "/images/visa_credit.png"
+      },
+      {
+        "name": "MasterCard",
+        "logoUrl": "/images/mastercard_credit.png"
+      }
+    ]
+  },
+  {
+    "id": "banks",
+    "type": "more_options",
+    "category": "credit",
     "title": "Tarjetas de crédito",
     "options": [
       {
         "name": "Bancolombia",
-        "logoUrl": "/img/bancolombia.png"
+        "logoUrl": "/images/bancolombia.png"
       },
       {
         "name": "Davivienda",
-        "logoUrl": "/img/davivienda.png"
+        "logoUrl": "/images/davivienda.png"
       },
       {
         "name": "Banco Popular",
-        "logoUrl": "/img/popular.png"
+        "logoUrl": "/images/popular.png"
+      }
+    ]
+  },
+  {
+    "id": "debit_screen",
+    "type": "screen",
+    "category" : "debit",
+    "title": "Tarjetas de débito",
+    "options": [
+      {
+        "name": "Visa Débito",
+        "logoUrl": "/images/visa_credit.png"
+      },
+      {
+        "name": "MasterCard Débito",
+        "logoUrl": "/images/mastercard_credit.png"
       }
     ]
   },
   {
     "id": "debit",
-    "type": "debit",
+    "type": "more_options",
+    "category" : "debit",
     "title": "Tarjetas de débito",
     "options": [
       {
         "name": "Visa Débito",
-        "logoUrl": "/img/visa.png"
+        "logoUrl": "/images/visa_debit.png"
       },
       {
         "name": "MasterCard Débito",
-        "logoUrl": "/img/mastercard.png"
+        "logoUrl": "/images/mastercard_debit.png"
+      }
+    ]
+  },
+  {
+    "id": "cash_screen",
+    "type": "screen",
+    "category": "other",
+    "title": "Pago en efectivo",
+    "options": [
+      {
+        "name": "Efecty",
+        "logoUrl": "/images/efecty.png"
       }
     ]
   },
   {
     "id": "cash",
-    "type": "other",
-    "category": "cash",
+    "type": "more_options",
+    "category": "other",
     "title": "Pago en efectivo",
     "options": [
       {
         "name": "Efecty",
-        "logoUrl": "/img/efecty.png"
+        "logoUrl": "/images/efecty.png"
       }
     ]
   },
   {
     "id": "transfer",
-    "type": "other",
-    "category": "transfer",
+    "type": "more_options",
+    "category": "other",
     "title": "Transferencia desde tu banco",
     "options": [
       {
         "name": "PSE",
-        "logoUrl": "/img/pse.png"
+        "logoUrl": "/images/pse.png"
       }
     ]
   }

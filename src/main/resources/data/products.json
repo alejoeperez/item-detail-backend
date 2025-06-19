@@ -14,11 +14,11 @@
         },
         "originalPrice": 280000,
         "discountPercentage": 0,
-        "images": ["converse-black-front.jpg", "converse-black-right-side.jpg", "converse-black-left-side.jpg"]
+        "images": ["product/converse-negro/converse-negro-1.png", "product/converse-negro/converse-negro-2.png", "product/converse-negro/converse-negro-3.png"]
       },
       {
         "id": "converse-variant-2",
-        "color": "Blanco",
+        "color": "Azul",
         "sizeStock": {
           "8": 5,
           "9": 3,
@@ -26,7 +26,7 @@
         },
         "originalPrice": 280000,
         "discountPercentage": 10,
-        "images": ["converse-white-front.jpg", "converse-white-right-side.jpg", "converse-white-left-side.jpg"]
+        "images": ["product/converse-azul/converse-azul-1.png", "product/converse-azul/converse-azul-2.png", "product/converse-azul/converse-azul-3.png"]
       },
       {
         "id": "converse-variant-3",
@@ -39,7 +39,7 @@
         },
         "originalPrice": 280000,
         "discountPercentage": 25,
-        "images": ["converse-red-front.jpg", "converse-red-right-side.jpg", "converse-red-left-side.jpg"]
+        "images": ["product/converse-rojo/converse-rojo-1.png", "product/converse-rojo/converse-rojo-2.png", "product/converse-rojo/converse-rojo-3.png"]
       }
     ],
     "features" : [
