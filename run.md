@@ -1,18 +1,67 @@
-How to run in Local this project.
+### 🔧 How to Run the Backend Project
 
-Required: 
+Follow these steps to set up and run the **backend** project locally:
 
-Java 17, Maven 3.9.9, IDE (IntelliJ, SpringToolSuite)
+---
 
-1. Clone project from repository: git clone https://github.com/alejoeperez/item-detail-backend.git
+#### 1. Clone the Repository
 
-2. Switch to develop branch for having last changes: git switch develop
-3. Open your IDE and import the project as a Maven Project (IntelliJ, SpringToolSuite)
-4. Run the command "mvn clean install -U" for downloading all dependencies.
-5. In your IDE right click on main class ItemDetailBackendApplication in following path "item-detail-backend/src/main/java/com.meli.item_detail_backend/"
-6. Run
+```bash
+git clone https://github.com/alejoeperez/item-detail-backend.git
+cd item-detail-backend
+```
 
-The application will be deployed in localhost:8080.
+---
 
-For getting Api Service Documentation go to
-http://localhost:8080/swagger-ui/index.html once the application is running
+#### 2. Switch to the `develop` Branch
+
+```bash
+git checkout develop
+```
+
+---
+
+#### 3. Requirements
+
+Ensure you have the following installed:
+
+- Java 17
+- Maven 3.9.9
+- IDE (e.g., IntelliJ IDEA or Spring Tool Suite)
+
+---
+
+#### 4. Import the Project
+
+Open your IDE and import the project as a **Maven Project**.
+
+---
+
+#### 5. Install Dependencies
+
+Run the following command to download all dependencies:
+
+```bash
+mvn clean install -U
+```
+
+---
+
+#### 6. Run the Application
+
+Locate the `ItemDetailBackendApplication.java` class in:
+
+```
+item-detail-backend/src/main/java/com/meli/item_detail_backend/
+```
+
+Right-click the file and select `Run` or run it via your IDE's console.
+
+The backend will be deployed at: 📍 `http://localhost:8080`
+
+---
+
+#### 7. API Documentation
+
+Once running, access the API documentation at: 📍 `http://localhost:8080/swagger-ui/index.html`
+
